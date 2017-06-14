@@ -11,3 +11,8 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+![alt text](http://i.imgur.com/kK5keEP.png)
+
+![alt text](http://i.imgur.com/KlrRbsg.png)
+
+![alt text](http://i.imgur.com/ftVSACD.png)
