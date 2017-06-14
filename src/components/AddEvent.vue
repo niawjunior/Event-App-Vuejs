@@ -4,7 +4,7 @@
     <div class="from">
         <div class="form-group">
             <label>Title</label>
-            <input type="text" class="form-control" v-model="event.tile">
+            <input type="text" class="form-control" v-model="event.title">
         </div>
          <div class="form-group">
             <label>Description</label>
@@ -27,7 +27,7 @@
 import { eventsRef } from '../firebaseApp'
 
     export default {
-        data(){
+        data() {
             return {
                 event: {
                     title: '',
@@ -40,7 +40,7 @@ import { eventsRef } from '../firebaseApp'
     },
     methods: {
         addEvent() {
-            this.event.email = this.store.state.user.email;
+            this.event.email = this.$store.state.user.email;
             eventsRef.push(this.event)
         }
     }
