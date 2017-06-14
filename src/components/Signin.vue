@@ -12,6 +12,7 @@
   </div>
   <br>
   <router-link to="/signup">Not a user? Sign up</router-link>
+  <br>
   <p>{{error.message}}</p>
 </div>
 </template>

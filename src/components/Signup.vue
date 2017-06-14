@@ -12,6 +12,7 @@
   </div>
   <br>
   <router-link to="/signin"> Already a user? Sign In</router-link>
+  <br>
   <p>{{error.message}}</p>
 </div>
 </template>
