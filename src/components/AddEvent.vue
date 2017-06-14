@@ -1,7 +1,7 @@
 <template>
 <div class="">
-    <h4>Add an Event</h4>
-    <div class="from">
+    <h4>Add an Event <input type="checkbox" v-model="showForm"/></h4>
+    <div class="from" v-if="showForm">
         <div class="form-group">
             <label>Title</label>
             <input type="text" class="form-control" v-model="event.title">
@@ -35,7 +35,8 @@ import { eventsRef } from '../firebaseApp'
                     date: '',
                     location: '',
                     email: ''
-            }
+            },
+            showForm: false
         }
     },
     methods: {
