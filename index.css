@@ -1,15 +1,14 @@
 #app {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 20px;
     color: #2C3350;
-    padding-left: 30%;
-    padding-right: 30%;
+    font-family: 'Kanit', sans-serif;
 }
 
 .signout-btn {
     position: absolute;
     text-align: right;
-    top: 60px;
+    top: 20px;
     right: 40px;
 }
 
@@ -20,4 +19,10 @@
 .form {
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.event-card {
+    border: 2px solid #2C3E50;
+    margin-top: 30px;
+    border-radius: 4px
 }

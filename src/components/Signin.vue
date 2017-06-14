@@ -1,19 +1,22 @@
 <template>
 <div class="col-md-12">
-  <div class="from-inline">
-    <h3>Sign In</h3>
-    <div class="form-group">
-      <input type="text" placeholder="email" class="form-control" v-model="email" />
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <div class="from-inline">
+      <h3>Sign In</h3>
+      <div class="form-group">
+        <input type="text" placeholder="email" class="form-control" v-model="email" />
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder="password" class="form-control" v-model="password">
+      </div>
+      <button class="btn btn-primary btn-block " @click="signIn">Sign In</button>
     </div>
-    <div class="form-group">
-      <input type="password" placeholder="password" class="form-control" v-model="password">
-    </div>
-    <button class="btn btn-primary btn-block " @click="signIn">Sign In</button>
+    <br>
+    <router-link to="/signup">Not a user? Sign up</router-link>
+    <br>
+    <p>{{error.message}}</p>
   </div>
-  <br>
-  <router-link to="/signup">Not a user? Sign up</router-link>
-  <br>
-  <p>{{error.message}}</p>
 </div>
 </template>
 
