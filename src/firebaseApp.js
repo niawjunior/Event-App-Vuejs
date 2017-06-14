@@ -9,3 +9,5 @@ import firebase from 'firebase'
     storageBucket: "todolist-app-b6acc.appspot.com",
     messagingSenderId: "507217730194"
   };
+
+export const firebaseApp = firebase.initializeApp(config)
