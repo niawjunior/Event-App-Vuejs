@@ -1,6 +1,6 @@
 <template>
-<div class="col-md-12">
-    <div class="from-inline">
+<div class="col-md-12" >
+ <div class="from-inline">
        <h3>Sign In</h3>
        <div class="form-group">
         <input type="text" placeholder="email" class="form-control" v-model="email"/>
@@ -8,11 +8,14 @@
        <div class="form-group">
         <input type="password" placeholder="password" class="form-control" v-model="password">
     </div>
-        <button class="btn btn-primary" @click="signIn">Sign In</button>
+    <button class="btn btn-primary btn-block " @click="signIn">Sign In</button>
+</div>
+   
+    
+        
        <br>
        <p>{{error.message}}</p>
     </div>
-</div>
 </template>
 
 <script>

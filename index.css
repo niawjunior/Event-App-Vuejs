@@ -3,4 +3,16 @@
     margin-top: 60px;
     font-size: 40px;
     color: #2C3350;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.signout-btn {
+ position:  absolute;
+ text-align: right;
+ top: 60px;
+ right: 40px;
+}
+.btn-signin{
+    margin-left:55%;
 }
