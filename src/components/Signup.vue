@@ -11,6 +11,7 @@
     <button class="btn btn-primary btn-block " @click="signUp">Sign Up</button>
   </div>
   <br>
+  <router-link to="/signin"> Already a user? Sign In</router-link>
   <p>{{error.message}}</p>
 </div>
 </template>

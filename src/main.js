@@ -24,7 +24,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
         store.dispatch('signIn', user)
         router.push('/dashboard')
     } else {
-        // router.replace('/signin')
+        router.replace('/signin')
     }
 })
 new Vue({
